@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  color: black;
+  text-align: center;
+  font-size: 3em ;
+  background-color: green;
+}
+
+.centrarElementos{
+  display: block;
+  margin: 20px auto;
+  font-size: 2em;
+  color: rgb(253, 9, 9);
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  
+}
+.resultado{
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em ;
+  background-color: green;
+}
+
+body{
+  background-image: url(./assets/dolar.jpg);
+  background-repeat: repeat;
+}
+
+.boton{
+  display: block;
+  margin: 20px auto;
+  
+  font-size: 1.5em ;
+  background-color: rgb(32, 117, 11);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.boton:hover{
+
+  background-color: rgb(17, 66, 2);
+} 
